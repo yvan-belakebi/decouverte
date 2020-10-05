@@ -1,0 +1,634 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20741,        624]
+NotebookOptionsPosition[     20442,        611]
+NotebookOutlinePosition[     20785,        626]
+CellTagsIndexPosition[     20742,        623]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{".", "pdf"}], "\[IndentingNewLine]", 
+ RowBox[{".", "html"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"#", " ", "Created", " ", "by", " ", 
+    RowBox[{"https", ":"}]}], "//", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"www", ".", "toptal", ".", "com"}], "/", "developers"}], "/", 
+      "gitignore"}], "/", "api"}], "/", "python"}]}], ",", "pycharm", ",", 
+  "jupyternotebooks"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"#", " ", "Edit", " ", "at", " ", 
+      RowBox[{"https", ":"}]}], "//", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"www", ".", "toptal", ".", "com"}], "/", "developers"}], "/", 
+      RowBox[{"gitignore", "?", "templates"}]}]}], "=", "python"}], ",", 
+   "pycharm", ",", "jupyternotebooks"}], "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"##", "#", " ", "JupyterNotebooks", " ", "##", "#"}], "\n", 
+ RowBox[{"#", " ", "gitignore", " ", "template", " ", "for", " ", "Jupyter", 
+  " ", "Notebooks"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", 
+   RowBox[{"website", ":", "http", ":"}]}], "//", 
+  RowBox[{
+   RowBox[{"jupyter", ".", "org"}], "/", "\[IndentingNewLine]", 
+   RowBox[{".", "ipynb_checkpoints"}]}]}], "\n", 
+ RowBox[{"*", 
+  RowBox[{"/.", 
+   RowBox[{
+    RowBox[{"ipynb_checkpoints", "/*", "#"}], " ", "IPython"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{"profile_default", "/", 
+   RowBox[{"ipython_config", ".", "py"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Remove", " ", "previous", " ", 
+  "ipynb_checkpoints"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "git", " ", "rm"}], "-", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"r", ".", "ipynb_checkpoints"}], "/", "##"}], "#", " ", "PyCharm",
+    " ", "##", "#"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Covers", " ", "JetBrains", " ", 
+   RowBox[{"IDEs", ":", "IntelliJ"}]}], ",", "RubyMine", ",", "PhpStorm", ",",
+   "AppCode", ",", "PyCharm", ",", "CLion", ",", 
+  RowBox[{"Android", " ", "Studio"}], ",", 
+  RowBox[{"WebStorm", " ", "and", " ", "Rider"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"#", " ", 
+    RowBox[{"Reference", ":", "https", ":"}]}], "//", 
+   RowBox[{"intellij", "-", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"support", ".", "jetbrains", ".", "com"}], "/", "hc"}], "/", 
+     "en"}], "-", 
+    RowBox[{
+     RowBox[{"us", "/", "articles"}], "/", "206544839"}]}]}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "User"}], "-", 
+  RowBox[{"specific", " ", "stuff"}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"workspace", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"tasks", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"usage", ".", "statistics", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", "dictionaries"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", "shelf"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Generated", " ", "files"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", 
+    RowBox[{"contentModel", ".", "xml"}]}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Sensitive", " ", "or", " ", "high"}], "-", 
+  RowBox[{"churn", " ", "files"}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{
+   RowBox[{"/", "dataSources"}], "/", "\[IndentingNewLine]", 
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"dataSources", ".", "ids"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"dataSources", ".", "local", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"sqlDataSources", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"dynamic", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"uiDesigner", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", 
+    RowBox[{"dbnavigator", ".", "xml"}]}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Gradle"}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{"/", 
+   RowBox[{"gradle", ".", "xml"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", "libraries"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{
+  "#", " ", "Gradle", " ", "and", " ", "Maven", " ", "with", " ", "auto"}], 
+  "-", "import"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+   "#", " ", "When", " ", "using", " ", "Gradle", " ", "or", " ", "Maven", 
+    " ", "with", " ", "auto"}], "-", "import"}], ",", 
+  RowBox[{"you", " ", "should", " ", "exclude", " ", "module", " ", "files"}],
+   ",", 
+  RowBox[{
+  "#", " ", "since", " ", "they", " ", "will", " ", "be", " ", "recreated"}], 
+  ",", 
+  RowBox[{"and", " ", "may", " ", "cause", " ", 
+   RowBox[{"churn", ".", "Uncomment"}], " ", "if", " ", "using"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "auto"}], "-", 
+  RowBox[{
+   RowBox[{"import", ".", "#", ".", "idea"}], "/", "artifacts"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", ".", "idea"}], "/", 
+  RowBox[{"compiler", ".", "xml"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", ".", "idea"}], "/", 
+  RowBox[{"jarRepositories", ".", "xml"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", ".", "idea"}], "/", 
+  RowBox[{"modules", ".", "xml"}]}], "\n", 
+ RowBox[{"#", ".", 
+  RowBox[{"idea", "/*"}], ".", "iml"}], "\n", 
+ RowBox[{
+  RowBox[{"#", ".", "idea"}], "/", "modules"}], "\n", 
+ RowBox[{"#", "*", 
+  RowBox[{".", "iml"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", "*", 
+   RowBox[{".", "ipr"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "CMake"}], "\n", 
+ RowBox[{"cmake", "-", "build", "-", 
+  RowBox[{"*", 
+   RowBox[{"/", "#"}], " ", "Mongo", " ", "Explorer", " ", "plugin"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", 
+    RowBox[{"mongoSettings", ".", "xml"}]}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "File"}], "-", 
+  RowBox[{"based", " ", "project", " ", "format"}]}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{".", "iws"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "IntelliJ"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"out", "/", "#"}], " ", 
+   RowBox[{"mpeltonen", "/", "sbt"}]}], "-", 
+  RowBox[{"idea", " ", "plugin"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "idea_modules"}], "/", "#"}], " ", "JIRA", " ", 
+  "plugin"}], "\n", 
+ RowBox[{
+  RowBox[{"atlassian", "-", "ide", "-", 
+   RowBox[{"plugin", ".", "xml"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Cursive", " ", "Clojure", " ", "plugin"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "idea"}], "/", 
+   RowBox[{"replstate", ".", "xml"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Crashlytics", " ", "plugin", " ", 
+  RowBox[{"(", 
+   RowBox[{
+   "for", " ", "Android", " ", "Studio", " ", "and", " ", "IntelliJ"}], 
+   ")"}]}], "\n", 
+ RowBox[{"com_crashlytics", "_export", 
+  RowBox[{"_strings", ".", "xml"}]}], "\n", 
+ RowBox[{"crashlytics", ".", "properties"}], "\n", 
+ RowBox[{"crashlytics", "-", 
+  RowBox[{"build", ".", "properties"}]}], "\n", 
+ RowBox[{
+  RowBox[{"fabric", ".", "properties"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Editor"}], "-", 
+  RowBox[{"based", " ", "Rest", " ", "Client"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "idea"}], "/", "httpRequests"}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Android", " ", "studio", " ", "3.1"}], "+", 
+  RowBox[{"serialized", " ", "cache", " ", "file"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{".", "idea"}], "/", "caches"}], "/", "build_file"}], 
+   RowBox[{"_checksums", ".", "ser"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"##", "#", " ", "PyCharm", " ", "Patch", " ", "##", "#"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"#", " ", "Comment", " ", 
+    RowBox[{"Reason", ":", "https", ":"}]}], "//", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"github", ".", "com"}], "/", "joeblau"}], "/", 
+        RowBox[{"gitignore", ".", "io"}]}], "/", "issues"}], "/", "186"}], 
+     "#issuecomment"}], "-", "215987721"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", "*", 
+  RowBox[{".", "iml"}]}], "\n", 
+ RowBox[{"#", " ", 
+  RowBox[{"modules", ".", "xml"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", ".", "idea"}], "/", 
+  RowBox[{"misc", ".", "xml"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", "*", 
+   RowBox[{".", "ipr"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Sonarlint", " ", "plugin"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", 
+   RowBox[{"https", ":"}]}], "//", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"plugins", ".", "jetbrains", ".", "com"}], "/", "plugin"}], "/", 
+    "7973"}], "-", "sonarlint"}]}], "\n", 
+ RowBox[{
+  RowBox[{".", 
+   RowBox[{"idea", "/*"}]}], "*", 
+  RowBox[{
+   RowBox[{"/", "sonarlint"}], "/", "#"}], " ", "SonarQube", " ", 
+  "Plugin"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", 
+   RowBox[{"https", ":"}]}], "//", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"plugins", ".", "jetbrains", ".", "com"}], "/", "plugin"}], "/", 
+    "7238"}], "-", "sonarqube", "-", "community", "-", "plugin"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", 
+    RowBox[{"sonarIssues", ".", "xml"}]}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Markdown", " ", "Navigator", " ", "plugin"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", 
+   RowBox[{"https", ":"}]}], "//", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"plugins", ".", "jetbrains", ".", "com"}], "/", "plugin"}], "/", 
+    "7896"}], "-", "markdown", "-", "navigator", "-", "enhanced"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", "markdown"}]}], "-", 
+  RowBox[{"navigator", ".", "xml"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", "markdown"}]}], "-", "navigator", "-", 
+  RowBox[{"enh", ".", "xml"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", 
+    RowBox[{"idea", "/*"}]}], "*", 
+   RowBox[{"/", "markdown"}]}], "-", 
+  RowBox[{
+   RowBox[{"navigator", "/", "#"}], " ", "Cache", " ", "file", " ", 
+   "creation", " ", "bug"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "See", " ", 
+   RowBox[{"https", ":"}]}], "//", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"youtrack", ".", "jetbrains", ".", "com"}], "/", "issue"}], "/", 
+    "JBR"}], "-", "2257"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "idea"}], "/", "$CACHE_FILE$"}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "CodeStream", " ", "plugin"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", 
+   RowBox[{"https", ":"}]}], "//", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"plugins", ".", "jetbrains", ".", "com"}], "/", "plugin"}], "/", 
+    "12206"}], "-", "codestream"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "idea"}], "/", 
+   RowBox[{"codestream", ".", "xml"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"##", "#", " ", "Python", " ", "##", "#"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Byte"}], "-", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"compiled", "/", "optimized"}], "/", "DLL"}], " ", 
+   "files"}]}], "\n", 
+ RowBox[{"__pycache", 
+  RowBox[{"__", "/"}]}], "\[IndentingNewLine]", 
+ RowBox[{"*", 
+  RowBox[{".", 
+   RowBox[{"py", "[", "cod", "]"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{"$py", ".", "class"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "C", " ", "extensions"}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{".", "so"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", 
+  RowBox[{"Distribution", "/", "packaging"}]}], "\n", 
+ RowBox[{".", "Python"}], "\n", 
+ RowBox[{
+  RowBox[{"build", "/", "develop"}], "-", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"eggs", "/", "dist"}], "/", "downloads"}], "/", "eggs"}], 
+          "/", "\[IndentingNewLine]", 
+          RowBox[{".", "eggs"}]}], "/", "lib"}], "/", "lib64"}], "/", 
+       "parts"}], "/", "sdist"}], "/", "var"}], "/", "wheels"}], "/", "pip"}],
+   "-", "wheel", "-", 
+  RowBox[{
+   RowBox[{"metadata", "/", "share"}], "/", "python"}], "-", 
+  RowBox[{
+   RowBox[{"wheels", "/"}], "\[IndentingNewLine]", "*", 
+   RowBox[{".", "egg"}]}], "-", 
+  RowBox[{"info", "/", "\[IndentingNewLine]", 
+   RowBox[{".", "installed", ".", "cfg"}]}]}], "\n", 
+ RowBox[{"*", 
+  RowBox[{".", "egg"}]}], "\n", 
+ RowBox[{"MANIFEST", "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "PyInstaller"}], "\n", 
+ RowBox[{"#", " ", "Usually", " ", "these", " ", "files", " ", "are", " ", 
+  "written", " ", "by", " ", "a", " ", "python", " ", "script", " ", "from", 
+  " ", "a", " ", "template"}], "\n", 
+ RowBox[{
+  RowBox[{
+  "#", " ", "before", " ", "PyInstaller", " ", "builds", " ", "the", " ", 
+   "exe"}], ",", 
+  RowBox[{"so", " ", "as", " ", "to", " ", "inject", " ", 
+   RowBox[{"date", "/", "other"}], " ", "infos", " ", "into", " ", 
+   RowBox[{"it", "."}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"*", 
+  RowBox[{".", "manifest"}]}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{".", "spec"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Installer", " ", "logs"}], "\n", 
+ RowBox[{"pip", "-", 
+  RowBox[{"log", ".", "txt"}]}], "\n", 
+ RowBox[{
+  RowBox[{"pip", "-", "delete", "-", "this", "-", 
+   RowBox[{"directory", ".", "txt"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Unit", " ", 
+  RowBox[{"test", "/", "coverage"}], " ", "reports"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"htmlcov", "/", "\[IndentingNewLine]", 
+    RowBox[{".", "tox"}]}], "/", "\[IndentingNewLine]", 
+   RowBox[{".", "nox"}]}], "/", "\[IndentingNewLine]", 
+  RowBox[{".", "coverage"}]}], "\n", 
+ RowBox[{
+  RowBox[{".", "coverage", "."}], "*", "\[IndentingNewLine]", 
+  RowBox[{".", "cache"}]}], "\n", 
+ RowBox[{"nosetests", ".", "xml"}], "\n", 
+ RowBox[{"coverage", ".", "xml"}], "\n", 
+ RowBox[{"*", 
+  RowBox[{".", "cover"}]}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{".", "py"}]}], ",", "cover"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{".", "hypothesis"}], "/", "\[IndentingNewLine]", 
+    RowBox[{".", "pytest_cache"}]}], "/", 
+   RowBox[{"pytestdebug", ".", "log"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Translations"}], "\n", 
+ RowBox[{"*", 
+  RowBox[{".", "mo"}]}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{".", "pot"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Django", " ", 
+  RowBox[{"stuff", ":", "\[IndentingNewLine]", 
+   RowBox[{"*", 
+    RowBox[{".", "log"}]}]}]}], "\n", 
+ RowBox[{"local_settings", ".", "py"}], "\n", 
+ RowBox[{"db", ".", "sqlite3"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"db", ".", "sqlite3"}], "-", "journal"}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Flask", " ", 
+   RowBox[{"stuff", ":", 
+    RowBox[{
+     RowBox[{"instance", "/", "\[IndentingNewLine]", 
+      RowBox[{".", "webassets"}]}], "-", "cache"}]}]}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "Scrapy", " ", 
+   RowBox[{"stuff", ":", "\[IndentingNewLine]", 
+    RowBox[{".", "scrapy"}]}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Sphinx", " ", "documentation"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"docs", "/", "_build"}], "/", "doc"}], "/", "_build"}], "/", 
+   "#"}], " ", "PyBuilder"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"target", "/", "#"}], " ", "Jupyter", " ", "Notebook"}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "IPython"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "pyenv"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "python"}], "-", "version"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "pipenv"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "According", " ", "to", " ", 
+   RowBox[{"pypa", "/", "pipenv"}], "#598"}], ",", 
+  RowBox[{"it", " ", "is", " ", "recommended", " ", "to", " ", "include", " ", 
+   RowBox[{"Pipfile", ".", "lock"}], " ", "in", " ", "version", " ", 
+   RowBox[{"control", ".", "#"}], " ", "However"}], ",", 
+  RowBox[{"in", " ", "case", " ", "of", " ", "collaboration"}], ",", 
+  RowBox[{
+   RowBox[{"if", " ", "having", " ", "platform"}], "-", 
+   RowBox[{
+   "specific", " ", "dependencies", " ", "or", " ", 
+    "dependencies"}]}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"#", " ", "having", " ", "no", " ", "cross"}], "-", 
+   RowBox[{"platform", " ", "support"}]}], ",", 
+  RowBox[{
+  "pipenv", " ", "may", " ", "install", " ", "dependencies", " ", "that", " ", 
+   RowBox[{"don", "'"}], "t", " ", "work"}], ",", 
+  RowBox[{"or", " ", "not"}]}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "install", " ", "all", " ", "needed", " ", 
+   RowBox[{"dependencies", ".", "#Pipfile", ".", "lock"}]}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"#", " ", "PEP", " ", "582"}], ";", 
+  RowBox[{
+   RowBox[{"used", " ", "by", " ", 
+    RowBox[{
+     RowBox[{"e", ".", "g", ".", "github", ".", "com"}], "/", "David"}]}], 
+   "-", 
+   RowBox[{"OConnor", "/", "pyflow"}]}]}], "\n", 
+ RowBox[{"__pypackages", 
+  RowBox[{"__", "/", "#"}], " ", "Celery", " ", "stuff"}], "\n", 
+ RowBox[{"celerybeat", "-", "schedule"}], "\n", 
+ RowBox[{
+  RowBox[{"celerybeat", ".", "pid"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "SageMath", " ", "parsed", " ", "files"}], "\n", 
+ RowBox[{
+  RowBox[{"*", 
+   RowBox[{".", "sage", ".", "py"}]}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Environments"}], "\n", 
+ RowBox[{".", "env"}], "\n", 
+ RowBox[{".", "venv"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"env", "/", "venv"}], "/", "ENV"}], "/", 
+     RowBox[{"env", ".", "bak"}]}], "/", 
+    RowBox[{"venv", ".", "bak"}]}], "/", "pythonenv"}], "*", "#", " ", 
+  "Spyder", " ", "project", " ", "settings"}], "\n", 
+ RowBox[{".", "spyderproject"}], "\n", 
+ RowBox[{
+  RowBox[{".", "spyproject"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Rope", " ", "project", " ", "settings"}], "\n", 
+ RowBox[{
+  RowBox[{".", "ropeproject"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "mkdocs", " ", "documentation"}], "\n", 
+ RowBox[{
+  RowBox[{"/", "site"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "mypy"}], "\n", 
+ RowBox[{
+  RowBox[{".", "mypy_cache"}], "/", "\[IndentingNewLine]", 
+  RowBox[{".", "dmypy", ".", "json"}]}], "\n", 
+ RowBox[{
+  RowBox[{"dmypy", ".", "json"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"#", " ", "Pyre", " ", "type", " ", "checker"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "pyre"}], "/", "#"}], " ", "pytype", " ", "static", " ", 
+  "type", " ", "analyzer"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{".", "pytype"}], "/", "#"}], " ", "profiling", " ", "data"}], "\n", 
+ RowBox[{
+  RowBox[{".", "prof"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"#", " ", "End", " ", "of", " ", 
+    RowBox[{"https", ":"}]}], "//", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"www", ".", "toptal", ".", "com"}], "/", "developers"}], "/", 
+      "gitignore"}], "/", "api"}], "/", "python"}]}], ",", "pycharm", ",", 
+  "jupyternotebooks"}]}], "Input",
+ CellChangeTimes->{{3.810876694116289*^9, 3.810876694116289*^9}, {
+  3.8108768469006715`*^9, 3.810876875188899*^9}, {3.810876985416919*^9, 
+  3.810877006969006*^9}},ExpressionUUID->"58eeaa1f-5cd9-4251-b18b-\
+8039b6fcfbb7"]
+},
+WindowSize->{775, 872},
+WindowMargins->{{564, Automatic}, {Automatic, 54}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 19880, 589, 4276, "Input",ExpressionUUID->"58eeaa1f-5cd9-4251-b18b-8039b6fcfbb7"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
